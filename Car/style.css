@@ -1,0 +1,47 @@
+html, body { margin: 0; height: 100%; overflow: hidden; }
+canvas { display: block; }
+
+.resetButton{
+    width: 60px;
+    height: 60px;
+    background-image: url('images/reset.png');
+    border-radius: 60px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.playButton{
+    width: 200px;
+    height: 60px;
+    /*background-color: ;*/
+    color: rgb(0, 73, 73);
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.textBox{
+    width: 200px;
+    height: 60px;
+    background-color:transparent ;
+    color: rgb(0, 73, 73);
+    font-weight: 900;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+::placeholder{
+    color:#4d4d4d;
+    opacity: 0.8;
+    font-size: medium;
+}
+
+.title{
+    width: 60%;
+    height: 130px;
+}
